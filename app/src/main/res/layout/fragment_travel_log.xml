@@ -1,0 +1,552 @@
+<!-- res/layout/fragment_travel_log.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@color/bg_default">
+
+    <!-- 년, 월 선택 레이아웃 -->
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/dateSelectLayout"
+        android:layout_width="330dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="@color/bg_default">
+
+        <!-- 연도 전환 기능 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginVertical="20dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/btnPreviousYear"
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/icon_prev" />
+
+            <TextView
+                android:id="@+id/tvYear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="90dp"
+                android:text="2024"
+                android:textSize="25dp"
+                android:textColor="@color/white"
+                android:fontFamily="@font/nanumsquare_acebold" />
+
+            <ImageView
+                android:id="@+id/btnNextYear"
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/icon_next" />
+        </LinearLayout>
+
+        <!-- 월별 그리드 레이아웃 -->
+        <GridLayout
+            android:id="@+id/monthGrid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="3"
+            android:rowCount="4">
+
+            <!-- 1월 -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:padding="8dp"
+                android:clickable="true"
+                android:id="@+id/month_january">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1월"
+                    android:textSize="25dp"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/nanumsquare_acebold" />
+
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/calendar"
+                    android:backgroundTintMode="@color/white"/>
+            </LinearLayout>
+
+            <!-- 2월 -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_row="0"
+                android:layout_column="1"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:padding="8dp"
+                android:clickable="true"
+                android:id="@+id/month_february">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2월"
+                    android:textSize="25dp"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/nanumsquare_acebold" />
+
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/calendar" />
+            </LinearLayout>
+
+            <!-- 3월 -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_row="0"
+                android:layout_column="2"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:padding="8dp"
+                android:clickable="true"
+                android:id="@+id/month_march">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3월"
+                    android:textSize="25dp"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/nanumsquare_acebold" />
+
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/calendar" />
+            </LinearLayout>
+
+            <!-- 4월 -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_row="1"
+                android:layout_column="0"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:padding="8dp"
+                android:clickable="true"
+                android:id="@+id/month_april">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="4월"
+                    android:textSize="25dp"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/nanumsquare_acebold" />
+
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/calendar" />
+            </LinearLayout>
+
+            <!-- 5월 -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_row="1"
+                android:layout_column="1"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:padding="8dp"
+                android:clickable="true"
+                android:id="@+id/month_may">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="5월"
+                    android:textSize="25dp"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/nanumsquare_acebold" />
+
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/calendar" />
+            </LinearLayout>
+
+            <!-- 6월 -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_row="1"
+                android:layout_column="2"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:padding="8dp"
+                android:clickable="true"
+                android:id="@+id/month_june">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="6월"
+                    android:textSize="25dp"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/nanumsquare_acebold" />
+
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/calendar" />
+            </LinearLayout>
+
+            <!-- 7월 -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_row="2"
+                android:layout_column="0"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:padding="8dp"
+                android:clickable="true"
+                android:id="@+id/month_july">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="7월"
+                    android:textSize="25dp"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/nanumsquare_acebold" />
+
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/calendar" />
+            </LinearLayout>
+
+            <!-- 8월 -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_row="2"
+                android:layout_column="1"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:padding="8dp"
+                android:clickable="true"
+                android:id="@+id/month_august">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="8월"
+                    android:textSize="25dp"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/nanumsquare_acebold" />
+
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/calendar" />
+            </LinearLayout>
+
+            <!-- 9월 -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_row="2"
+                android:layout_column="2"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:padding="8dp"
+                android:clickable="true"
+                android:id="@+id/month_september">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="9월"
+                    android:textSize="25dp"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/nanumsquare_acebold" />
+
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/calendar" />
+            </LinearLayout>
+
+            <!-- 10월 -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_row="3"
+                android:layout_column="0"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:padding="8dp"
+                android:clickable="true"
+                android:id="@+id/month_october">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="10월"
+                    android:textSize="25dp"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/nanumsquare_acebold" />
+
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/calendar" />
+            </LinearLayout>
+
+            <!-- 11월 -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_row="3"
+                android:layout_column="1"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:padding="8dp"
+                android:clickable="true"
+                android:id="@+id/month_november">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="11월"
+                    android:textSize="25dp"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/nanumsquare_acebold" />
+
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/calendar" />
+            </LinearLayout>
+
+            <!-- 12월 -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_row="3"
+                android:layout_column="2"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:padding="8dp"
+                android:clickable="true"
+                android:id="@+id/month_december">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="12월"
+                    android:textSize="25dp"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/nanumsquare_acebold" />
+
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/calendar" />
+            </LinearLayout>
+        </GridLayout>
+    </LinearLayout>
+
+    <!-- 캘린더 뷰 레이아웃 -->
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/calendarViewLayout"
+        android:layout_width="330dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        android:background="@color/bg_default" >
+
+        <com.prolificinteractive.materialcalendarview.MaterialCalendarView
+            android:id="@+id/calendarView"
+            android:layout_width="330dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            app:mcv_leftArrow="@color/transparent"
+            app:mcv_rightArrow="@color/transparent"
+            app:mcv_headerTextAppearance="@style/CalendarWidgetHeader"
+            app:mcv_weekDayTextAppearance="@style/CalendarViewWeekStyle"
+            app:mcv_dateTextAppearance="@style/CalendarViewDateStyle"
+            app:mcv_selectionColor="@color/transparent"
+            app:mcv_monthLabels="@array/custom_month_labels"
+            app:mcv_tileHeight="65dp"
+            app:mcv_showOtherDates="defaults" />
+
+    </LinearLayout>
+
+    <!-- 다이어리 레이아웃 -->
+    <LinearLayout
+        android:visibility="gone"
+        android:layout_width="330dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/diaryViewLayout"
+        android:layout_gravity="center"
+        android:background="@color/bg_diary" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="left"
+            android:orientation="horizontal"
+            android:layout_marginTop="6dp">
+
+            <ImageView
+                android:id="@+id/diaryMoodView"
+                android:layout_marginLeft="6dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/icon_happy" />
+
+            <TextView
+                android:id="@+id/diaryDateView"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:textSize="24dp"
+                android:fontFamily="@font/nanumsquare_acebold"
+                android:textColor="@color/black" />
+
+        </LinearLayout>
+
+        <View
+            android:background="@color/black"
+            android:layout_width="310dp"
+            android:layout_height="5px"
+            android:layout_gravity="center"
+            android:layout_marginVertical="7dp"/>
+
+        <TextView
+            android:id="@+id/diaryTitleView"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="제목: "
+            android:gravity="center"
+            android:textSize="24dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="4dp"
+            android:fontFamily="@font/nanumsquare_acebold"
+            android:textColor="@color/black" />
+
+        <HorizontalScrollView
+            android:id="@+id/diaryImagesScrollView"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp"
+            android:visibility="gone">
+
+            <LinearLayout
+                android:id="@+id/diaryImagesView"
+                android:layout_width="242dp"
+                android:layout_height="242dp"
+                android:orientation="horizontal"
+                android:gravity="left">
+            </LinearLayout>
+
+        </HorizontalScrollView>
+
+        <View
+            android:id="@+id/diaryLine"
+            android:background="@color/black"
+            android:layout_width="310dp"
+            android:layout_height="5px"
+            android:layout_gravity="center"
+            android:layout_marginVertical="7dp"/>
+
+        <TextView
+            android:id="@+id/diaryCommentView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:fontFamily="@font/nanumsquare_acebold"
+            android:textColor="@color/black"
+            android:gravity="center|left"
+            android:paddingHorizontal="15dp"/>
+
+        <View
+            android:background="@color/black"
+            android:layout_width="310dp"
+            android:layout_height="5px"
+            android:layout_gravity="center"
+            android:layout_marginVertical="7dp"/>
+
+    </LinearLayout>
+
+    <Button
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:id="@+id/editModeEndBtn"
+        android:text="편집모드 종료"
+        android:fontFamily="@font/nanumsquare_acebold"
+        android:textSize="14dp"
+        android:backgroundTint="@color/bg_diary"
+        android:textColor="@color/black"
+        android:layout_marginVertical="15dp" />
+
+</LinearLayout>

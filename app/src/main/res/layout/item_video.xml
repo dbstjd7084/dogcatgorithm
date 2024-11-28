@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_marginVertical="3dp"
+    android:layout_marginHorizontal="2dp"
+    android:gravity="top|center"
+    android:padding="2dp">
+
+    <!-- 영상 썸네일 -->
+    <ImageView
+        android:id="@+id/videoThumbnail"
+        android:layout_width="165dp"
+        android:layout_height="92dp"
+        android:src="@android:drawable/ic_menu_gallery"
+        android:contentDescription="Video Thumbnail"
+        android:scaleType="centerCrop"
+        android:background="@color/white" />
+
+    <!-- 영상 제목 -->
+    <TextView
+        android:id="@+id/videoTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_gravity="top|left"
+        android:layout_marginHorizontal="2dp"
+        android:text="Video Title"
+        android:textSize="12dp"
+        android:textColor="@color/gray"
+        android:fontFamily="@font/nanumsquare_acebold"/>
+
+    <!-- 채널명 -->
+    <TextView
+        android:id="@+id/channelName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|left"
+        android:layout_marginHorizontal="2dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="1dp"
+        android:text="Channel Name"
+        android:textSize="10dp"
+        android:textColor="@color/gray"
+        android:fontFamily="@font/nanumsquare_acebold"/>
+
+    <!-- 조회수 및 게시일 -->
+    <TextView
+        android:id="@+id/viewCountAndPublishedAt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|left"
+        android:layout_marginHorizontal="2dp"
+        android:layout_marginBottom="3dp"
+        android:text="조회수: 0회ㆍ0일 전"
+        android:textSize="10dp"
+        android:textColor="@color/gray"
+        android:fontFamily="@font/nanumsquare_acebold"/>
+</LinearLayout>

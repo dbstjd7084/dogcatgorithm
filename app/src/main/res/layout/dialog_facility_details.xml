@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_marginTop="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="25dp"
+        android:layout_marginLeft="2dp">
+
+        <TextView
+            android:id="@+id/dialog_facility_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="제목"
+            android:textSize="22dp"
+            android:fontFamily="@font/nanumsquare_acebold"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/dialog_facility_category"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="카테고리"
+            android:textSize="16dp"
+            android:fontFamily="@font/nanumsquare_acbold"
+            android:textColor="@color/gray"
+            android:layout_marginLeft="7dp"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/dialog_facility_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="장소 설명"
+        android:textSize="15dp"
+        android:fontFamily="@font/nanumsquare_acbold"
+        android:textColor="@color/darkgray"
+        android:layout_marginBottom="11dp"
+        android:layout_marginLeft="5dp" />
+
+    <TextView
+        android:id="@+id/dialog_facility_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="주소"
+        android:textSize="15dp"
+        android:fontFamily="@font/nanumsquare_acbold"
+        android:textColor="@color/darkgray"
+        android:layout_marginBottom="11dp"
+        android:layout_marginLeft="5dp" />
+
+    <TextView
+        android:id="@+id/dialog_facility_operating_hours"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="운영시간"
+        android:textSize="15dp"
+        android:fontFamily="@font/nanumsquare_acbold"
+        android:textColor="@color/darkgray"
+        android:layout_marginBottom="11dp"
+        android:layout_marginLeft="5dp" />
+
+    <TextView
+        android:id="@+id/dialog_facility_call_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="전화번호"
+        android:textSize="15dp"
+        android:fontFamily="@font/nanumsquare_acbold"
+        android:textColor="@color/darkgray"
+        android:layout_marginBottom="11dp"
+        android:layout_marginLeft="5dp" />
+
+    <TextView
+        android:id="@+id/dialog_facility_homepage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="홈페이지"
+        android:textSize="15dp"
+        android:fontFamily="@font/nanumsquare_acbold"
+        android:textColor="#0C4EA9"
+        android:layout_marginBottom="11dp"
+        android:layout_marginLeft="5dp" />
+
+    <TextView
+        android:id="@+id/dialog_facility_fee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="이용료 가격"
+        android:textSize="15dp"
+        android:fontFamily="@font/nanumsquare_acbold"
+        android:textColor="@color/darkgray"
+        android:layout_marginBottom="11dp"
+        android:layout_marginLeft="5dp" />
+
+    <TextView
+        android:id="@+id/dialog_facility_additional_fee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="동반 요금"
+        android:textSize="15dp"
+        android:fontFamily="@font/nanumsquare_acbold"
+        android:textColor="@color/darkgray"
+        android:layout_marginBottom="11dp"
+        android:layout_marginLeft="5dp" />
+
+    <TextView
+        android:id="@+id/dialog_facility_restrictions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="입장 제한 사항"
+        android:textSize="15dp"
+        android:fontFamily="@font/nanumsquare_acbold"
+        android:textColor="@color/darkgray"
+        android:layout_marginBottom="11dp"
+        android:layout_marginLeft="5dp" />
+
+    <TextView
+        android:id="@+id/dialog_facility_can_parking"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="주차 가능"
+        android:textSize="15dp"
+        android:fontFamily="@font/nanumsquare_acbold"
+        android:textColor="@color/darkgray"
+        android:layout_marginBottom="11dp"
+        android:layout_marginLeft="5dp" />
+
+    <TextView
+        android:id="@+id/dialog_facility_outdoor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="야외 시설"
+        android:textSize="15dp"
+        android:fontFamily="@font/nanumsquare_acbold"
+        android:textColor="@color/darkgray"
+        android:layout_marginBottom="11dp"
+        android:layout_marginLeft="5dp" />
+
+    <TextView
+        android:id="@+id/dialog_facility_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2022년 12월 30일"
+        android:textSize="13dp"
+        android:fontFamily="@font/nanumsquare_acbold"
+        android:textColor="@color/gray"
+        android:layout_gravity="right" />
+
+    <Button
+        android:id="@+id/dialog_facility_closeBtn"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_gravity="end"
+        android:backgroundTint="@color/bg_diary"
+        android:text="닫기"
+        android:textColor="@color/black"
+        android:textSize="15dp" />
+
+</LinearLayout>

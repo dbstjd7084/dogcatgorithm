@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/filterBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:paddingVertical="4dp"
+        android:paddingHorizontal="10dp"
+        android:background="@drawable/rounded_rectangle">
+
+        <ImageView
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:src="@drawable/icon_filter" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14dp"
+            android:text="현재 필터 :  "
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:paddingLeft="14dp"
+            android:textColor="@color/black"
+            android:id="@+id/filterView" />
+
+    </LinearLayout>
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="519dp"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_marginTop="3dp"/>
+</LinearLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:background="@color/bg_diary"
+    android:gravity="top|center">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="멍냥정보 YouTube"
+        android:gravity="top|center"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/nanumsquare_acebold"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/AIComment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="분석 중 입니다. 잠시만 기다려주세요.."
+        android:gravity="top|center"
+        android:layout_marginVertical="10dp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/nanumsquare_acbold"
+        android:paddingHorizontal="10dp"
+        android:textSize="15dp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingVertical="2dp"
+        android:paddingHorizontal="2dp">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+</LinearLayout>

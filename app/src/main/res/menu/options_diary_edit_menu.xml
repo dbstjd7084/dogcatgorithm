@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/diaryEntryEdit"
+        android:title="@string/diaryEdit" />
+    <item
+        android:id="@+id/diaryEntryDelete"
+        android:title="@string/diaryDelete" />
+</menu>

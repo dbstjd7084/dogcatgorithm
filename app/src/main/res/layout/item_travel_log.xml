@@ -1,0 +1,24 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_gravity="top|center_horizontal"
+    android:padding="8dp"
+    android:background="@color/bg_diary">
+
+    <ImageView
+        android:id="@+id/icon_image_view"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginEnd="8dp"
+        android:src="@drawable/icon_travel_log"/>
+
+    <TextView
+        android:id="@+id/date_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:fontFamily="@font/nanumsquare_acebold"
+        android:layout_gravity="center_vertical"/>
+</LinearLayout>

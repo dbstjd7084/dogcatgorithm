@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center|top"
+    android:background="@color/bg_default"
+    android:orientation="vertical">
+
+    <!-- 반려동물 사진 레이아웃 -->
+    <LinearLayout
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:gravity="center|top"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/myPetImage"
+            android:layout_width="330dp"
+            android:layout_height="260dp"
+            android:scaleType="centerCrop"
+            android:layout_marginTop="20dp"
+            app:srcCompat="@drawable/empty_type" />
+
+    </LinearLayout>
+
+    <!-- 반려동물 정보 레이아웃 -->
+    <LinearLayout
+        android:layout_width="330dp"
+        android:layout_height="360dp"
+        android:gravity="center|top"
+        android:background="@color/btn_default"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="40dp"
+        android:orientation="vertical" >
+
+        <Button
+            android:layout_width="180dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:visibility="visible"
+            android:text="반려동물 정보 입력하기"
+            android:textSize="12dp"
+            android:fontFamily="@font/nanumsquare_acebold"
+            android:layout_marginTop="160dp"
+            android:backgroundTint="@color/btn_default"
+            android:textColor="@color/black"
+            android:id="@+id/setPetInfo" />
+
+        <!-- 반려동물 정보 표시 레이아웃 -->
+        <LinearLayout
+            android:id="@+id/petInfoLinearlayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|top"
+            android:orientation="vertical"
+            android:visibility="gone" >
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:id="@+id/editInfo"
+                android:layout_gravity="top|right"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="8dp"
+                android:src="@drawable/icon_edit" />
+
+            <ImageView
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:id="@+id/typeView"
+                android:scaleType="centerCrop"
+                android:visibility="visible"
+                android:layout_marginTop="13dp"
+                android:src="@drawable/dog" />
+
+            <GridLayout
+                android:layout_width="270dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/InfoGridlayout"
+                android:columnCount="3"
+                android:rowCount="4"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:layout_marginTop="24.8dp">
+
+                <TextView
+                    android:layout_width="90dp"
+                    android:layout_height="30dp"
+                    android:text="이름:"
+                    android:textSize="15dp"
+                    android:layout_column="0"
+                    android:layout_row="0"
+                    android:gravity="right"
+                    android:fontFamily="@font/nanumsquare_acebold" />
+
+                <TextView
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/nameInfoView"
+                    android:textSize="15dp"
+                    android:layout_column="1"
+                    android:layout_row="0"
+                    android:layout_columnSpan="2"
+                    android:fontFamily="@font/nanumsquare_acebold" />
+
+                <TextView
+                    android:layout_width="90dp"
+                    android:layout_height="30dp"
+                    android:text="생년월일:"
+                    android:textSize="15dp"
+                    android:layout_column="0"
+                    android:layout_row="1"
+                    android:gravity="right"
+                    android:layout_marginTop="8dp"
+                    android:fontFamily="@font/nanumsquare_acebold" />
+
+                <TextView
+                    android:layout_width="180dp"
+                    android:layout_height="30dp"
+                    android:id="@+id/birthInfoView"
+                    android:text=""
+                    android:textSize="15dp"
+                    android:layout_column="1"
+                    android:layout_row="1"
+                    android:gravity="left"
+                    android:layout_marginTop="8dp"
+                    android:fontFamily="@font/nanumsquare_acebold" />
+
+                <TextView
+                    android:layout_width="90dp"
+                    android:layout_height="30dp"
+                    android:text="좋아하는 것:"
+                    android:textSize="15dp"
+                    android:layout_column="0"
+                    android:layout_row="2"
+                    android:gravity="right"
+                    android:layout_marginTop="15dp"
+                    android:fontFamily="@font/nanumsquare_acebold" />
+
+                <TextView
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/likeInfoView"
+                    android:textSize="15dp"
+                    android:layout_column="1"
+                    android:layout_row="2"
+                    android:layout_columnSpan="2"
+                    android:layout_marginTop="15dp"
+                    android:fontFamily="@font/nanumsquare_acebold" />
+
+                <TextView
+                    android:layout_width="90dp"
+                    android:layout_height="30dp"
+                    android:text="싫어하는 것:"
+                    android:textSize="15dp"
+                    android:layout_column="0"
+                    android:layout_row="3"
+                    android:gravity="right"
+                    android:layout_marginTop="15dp"
+                    android:fontFamily="@font/nanumsquare_acebold" />
+
+                <TextView
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/hateInfoView"
+                    android:textSize="15dp"
+                    android:layout_column="1"
+                    android:layout_row="3"
+                    android:layout_columnSpan="2"
+                    android:layout_marginTop="15dp"
+                    android:fontFamily="@font/nanumsquare_acebold" />
+
+            </GridLayout>
+
+        </LinearLayout>
+
+        <!-- 반려동물 설정창 레이아웃 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|top"
+            android:orientation="vertical"
+            android:id="@+id/typeInfoSelectLayout"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:gravity="center"
+                android:text="내 반려친구"
+                android:textSize="16dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/nanumsquare_acebold"
+                android:layout_marginTop="6dp" />
+
+            <ImageView
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:id="@+id/typeInfoWhat"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/icon_what" />
+
+            <HorizontalScrollView
+                android:layout_width="160dp"
+                android:layout_height="75dp"
+                android:visibility="gone"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:id="@+id/typeInfoHorizontalScrollview">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        android:id="@+id/typeInfoDog"
+                        android:layout_marginLeft="5dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/dog" />
+
+                    <ImageView
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        android:id="@+id/typeInfoCat"
+                        android:layout_marginLeft="5dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/cat" />
+
+                </LinearLayout>
+
+            </HorizontalScrollView>
+
+            <GridLayout
+                android:layout_width="270dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/InfoEditGridlayout"
+                android:columnCount="3"
+                android:rowCount="4"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="90dp"
+                    android:layout_height="35dp"
+                    android:text="이름:"
+                    android:textSize="15dp"
+                    android:layout_column="0"
+                    android:layout_row="0"
+                    android:gravity="right"
+                    android:fontFamily="@font/nanumsquare_acebold" />
+
+                <EditText
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/nameInfoEdit"
+                    android:hint="이름을 입력하세요."
+                    android:textSize="15dp"
+                    android:textColor="@color/text"
+                    android:layout_column="1"
+                    android:layout_row="0"
+                    android:layout_columnSpan="2"
+                    android:maxLength="6"
+                    android:fontFamily="@font/nanumsquare_acebold" />
+
+                <TextView
+                    android:layout_width="90dp"
+                    android:layout_height="35dp"
+                    android:text="생년월일:"
+                    android:textSize="15dp"
+                    android:layout_column="0"
+                    android:layout_row="1"
+                    android:gravity="right"
+                    android:layout_marginTop="3dp"
+                    android:fontFamily="@font/nanumsquare_acebold" />
+
+                <TextView
+                    android:layout_width="130dp"
+                    android:layout_height="35dp"
+                    android:id="@+id/birthEditInfoView"
+                    android:text=""
+                    android:textSize="15dp"
+                    android:layout_column="1"
+                    android:layout_row="1"
+                    android:gravity="left"
+                    android:layout_marginTop="3dp"
+                    android:fontFamily="@font/nanumsquare_acebold" />
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:id="@+id/birthEditInfoEdit"
+                    android:layout_column="2"
+                    android:layout_row="1"
+                    android:scaleType="centerCrop"
+                    android:layout_gravity="left|top"
+                    android:layout_marginLeft="8dp"
+                    android:src="@drawable/calendar" />
+
+                <TextView
+                    android:layout_width="90dp"
+                    android:layout_height="35dp"
+                    android:text="좋아하는 것:"
+                    android:textSize="15dp"
+                    android:layout_column="0"
+                    android:layout_row="2"
+                    android:gravity="right"
+                    android:fontFamily="@font/nanumsquare_acebold" />
+
+                <EditText
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/likeInfoEdit"
+                    android:hint="ex) 산책, 간식"
+                    android:textSize="15dp"
+                    android:textColor="@color/text"
+                    android:layout_column="1"
+                    android:layout_row="2"
+                    android:layout_columnSpan="2"
+                    android:maxLength="16"
+                    android:fontFamily="@font/nanumsquare_acebold" />
+
+                <TextView
+                    android:layout_width="90dp"
+                    android:layout_height="35dp"
+                    android:text="싫어하는 것:"
+                    android:textSize="15dp"
+                    android:layout_column="0"
+                    android:layout_row="3"
+                    android:gravity="right"
+                    android:fontFamily="@font/nanumsquare_acebold" />
+
+                <EditText
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/hateInfoEdit"
+                    android:hint="ex) 발 만지기"
+                    android:textSize="15dp"
+                    android:textColor="@color/text"
+                    android:layout_column="1"
+                    android:layout_row="3"
+                    android:layout_columnSpan="2"
+                    android:maxLength="16"
+                    android:fontFamily="@font/nanumsquare_acebold" />
+
+            </GridLayout>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_gravity="center"
+                android:visibility="gone"
+                android:text="저장하기"
+                android:textSize="12dp"
+                android:fontFamily="@font/nanumsquare_acebold"
+                android:backgroundTint="@color/btn_default"
+                android:textColor="@color/black"
+                android:id="@+id/savePetInfo" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/bg_default">
+
+    <androidx.appcompat.widget.SearchView
+        android:id="@+id/search_view"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="5dp"
+        app:queryHint="제목을 입력하세요.."
+        android:theme="@style/SearchView" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/writtenDiarysLayout"
+        android:layout_marginVertical="8dp"
+        android:orientation="vertical" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:gravity="center"
+        android:layout_marginVertical="5dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="65dp"
+            android:layout_height="80dp"
+            android:orientation="vertical"
+            android:background="@drawable/rounded_rectangle"
+            android:gravity="center"
+            android:padding="1dp">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/icon_reload"
+                android:id="@+id/writtenDiaryReloadBtn" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="새로고침"
+                android:fontFamily="@font/nanumsquare_acebold"
+                android:textColor="@color/black"
+                android:layout_gravity="center" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="65dp"
+            android:layout_height="80dp"
+            android:orientation="vertical"
+            android:background="@drawable/rounded_rectangle"
+            android:gravity="center"
+            android:layout_marginLeft="40dp">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/icon_search"
+                android:id="@+id/writtenDiaryPlusSearchBtn" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="확장 검색"
+                android:fontFamily="@font/nanumsquare_acebold"
+                android:textColor="@color/black"
+                android:layout_gravity="center" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

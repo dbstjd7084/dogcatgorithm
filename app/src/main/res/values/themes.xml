@@ -1,0 +1,13 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Application" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <!-- 폰트 변경 -->
+        <item name="android:fontFamily">@font/nanumsquare_acebold</item>
+        <!-- 네비게이션 바 텍스트 크기 변경 -->
+        <item name="android:textSize">13dp</item>
+    </style>
+
+    <style name="Theme.Application" parent="Base.Theme.Application" />
+</resources>

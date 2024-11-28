@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:cardview="http://schemas.android.com/apk/res-auto"
+    android:layout_width="100dp"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    cardview:cardCornerRadius="6dp"
+    cardview:cardElevation="8dp"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginVertical="2dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="4dp">
+
+            <TextView
+                android:id="@+id/window_facility_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="제목"
+                android:textSize="13dp"
+                android:fontFamily="@font/nanumsquare_acebold"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/window_facility_category"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="카테고리"
+                android:textSize="11dp"
+                android:fontFamily="@font/nanumsquare_acbold"
+                android:textColor="@color/gray"
+                android:layout_marginLeft="5dp"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/window_facility_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="주소"
+            android:textSize="11dp"
+            android:fontFamily="@font/nanumsquare_acbold"
+            android:textColor="@color/black"
+            android:layout_marginBottom="1dp" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

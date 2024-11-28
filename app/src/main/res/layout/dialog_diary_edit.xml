@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/diaryEditTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLength="9"
+        android:hint="제목" />
+
+    <EditText
+        android:id="@+id/diaryEditComment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLength="300"
+        android:hint="내용 (예: 옆집 흰둥이를 만났다.)" />
+
+</LinearLayout>

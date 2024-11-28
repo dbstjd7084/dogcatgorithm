@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- 시도 Spinner -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="시도 선택"
+        android:textSize="16sp"
+        android:layout_marginBottom="8dp" />
+
+    <Spinner
+        android:id="@+id/spinner_sido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- 시군구 체크박스 -->
+    <TextView
+        android:id="@+id/tv_sigungu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:text="시군구 선택"
+        android:textSize="16sp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp" />
+
+    <ScrollView
+        android:id="@+id/scroll_sigungu"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:id="@+id/layout_sigungu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
+</LinearLayout>
