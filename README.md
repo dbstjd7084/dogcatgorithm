@@ -15,11 +15,11 @@
 
 ## 목표
 
-1
+<img src="https://github.com/dbstjd7084/dogcatgorithm/blob/567e3c7d5176f3a3b88911f062869dc9a4270dd4/images/1%20-%20icon.png" alt="1 - icon" width="300"/>
 이 프로젝트는 반려동물의 인적사항, 일기, 추천 영상, 반려동물 동반 가능 시설 지도를 제공합니다.
 유튜브 영상 전체화면을 제외한 세로 화면 환경에서 구동됩니다.
 
-[테스트 환경: Android API 35 Emulator, Galaxy Tab S7 Fe]
+[테스트 환경: Android API 35 Emulator, Galaxy Tab S7 FE]
 
 ## 설치 방법
 
@@ -55,7 +55,7 @@
 
 ### 로딩 화면
 
-2
+<img src="https://github.com/dbstjd7084/dogcatgorithm/blob/567e3c7d5176f3a3b88911f062869dc9a4270dd4/images/2%20-%20%EB%A1%9C%EB%94%A9%20%ED%99%94%EB%A9%B4.gif" alt="로딩 화면" width="500"/>
 반려동물 동반 시설에 대한 정보를 사전에 다운 및 확인합니다.
 움직이는 귀여운 고양이를 볼 수 있습니다.
 
