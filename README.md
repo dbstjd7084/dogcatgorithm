@@ -54,7 +54,7 @@
 ## 주요 기능
 
 ### 로딩 화면
-<img src="https://github.com/dbstjd7084/dogcatgorithm/blob/567e3c7d5176f3a3b88911f062869dc9a4270dd4/images/2%20-%20%EB%A1%9C%EB%94%A9%20%ED%99%94%EB%A9%B4.gif" alt="2 - 로딩 화면" width="300"/>
+<img src="https://github.com/dbstjd7084/dogcatgorithm/blob/567e3c7d5176f3a3b88911f062869dc9a4270dd4/images/2%20-%20%EB%A1%9C%EB%94%A9%20%ED%99%94%EB%A9%B4.gif" alt="2 - 로딩 화면" width="300"/><br>(재생 가능)
 
 - 로딩 화면에서 gif 형태의 사진으로 고양이가 노는 모습을 볼 수 있습니다. 로딩하는 동안 반려동물 동반 시설에 대한 정보를 SQLite에 미리 가져와 저장합니다.
 
