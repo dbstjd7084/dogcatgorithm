@@ -143,7 +143,7 @@
 - 오늘이 생일이면 축하해주며 생일이 다가오는 경우도 알려줍니다.<br><br>
 
 <div align="left">
-    <img src="https://github.com/dbstjd7084/dogcatgorithm/blob/7c81dae361b50b7f27891b83f143dd546392ac02/images/23%20-%20%EC%98%81%EC%83%81%EB%B7%B0.png" alt="23 - 영상뷰" width="300"/>&nbsp;&nbsp;
+    <img src="https://github.com/dbstjd7084/dogcatgorithm/blob/7c81dae361b50b7f27891b83f143dd546392ac02/images/23%20-%20%EC%98%81%EC%83%81%EB%B7%B0.png" alt="23 - 영상뷰" width="300"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <img src="https://github.com/dbstjd7084/dogcatgorithm/blob/7c81dae361b50b7f27891b83f143dd546392ac02/images/24%20-%20%EC%98%81%EC%83%81%20%EC%A0%84%EC%B2%B4%ED%99%94%EB%A9%B4.png" alt="24 - 영상 전체화면" width="300"/>
 </div>
 
