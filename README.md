@@ -25,7 +25,7 @@
 
 1. 이 저장소를 클론합니다:
    ```bash
-     git clone https://github.com/dbstjd7084/dogcatgorithm.git
+   git clone https://github.com/dbstjd7084/dogcatgorithm.git
    ```
 2. 디렉토리로 이동합니다:
    ```bash
@@ -54,30 +54,26 @@
 ## 주요 기능
 
 ### 로딩 화면
+```block
 <img src="https://github.com/dbstjd7084/dogcatgorithm/blob/567e3c7d5176f3a3b88911f062869dc9a4270dd4/images/2%20-%20%EB%A1%9C%EB%94%A9%20%ED%99%94%EB%A9%B4.gif" alt="2 - 로딩 화면" width="300"/>
 
 로딩 화면에서 gif 형태의 사진으로 고양이가 노는 모습을 볼 수 있습니다. 로딩하는 동안 반려동물 동반 시설에 대한 정보를 SQLite에 미리 가져와 저장합니다.
-
----
+```
 
 ### 홈
+```block
 <img src="https://github.com/dbstjd7084/dogcatgorithm/blob/7c81dae361b50b7f27891b83f143dd546392ac02/images/3%20-%20%ED%99%88%20%ED%99%94%EB%A9%B4.png" alt="3 - 홈 화면" width="300"/>
 
 홈에서 반려동물의 사진을 올리고, 반려동물 정보를 작성해 홈 화면을 내 반려동물로 꾸밀 수 있습니다.
-
----
+```
 
 <img src="https://github.com/dbstjd7084/dogcatgorithm/blob/7c81dae361b50b7f27891b83f143dd546392ac02/images/4%20-%20%ED%99%88%20%EC%82%AC%EC%A7%84%20%ED%99%95%EB%8C%80.png" alt="4 - 홈 사진 확대" width="300"/>
 
 내가 올린 반려동물 사진을 눌러 사진을 확대할 수 있습니다. 또한, 사진을 길게 눌러 사진을 변경하거나 없앨 수 있습니다.
 
----
-
 <img src="https://github.com/dbstjd7084/dogcatgorithm/blob/7c81dae361b50b7f27891b83f143dd546392ac02/images/5%20-%20%ED%99%88%20%EC%9E%91%EC%84%B1%20%ED%99%94%EB%A9%B4.png" alt="5 - 홈 작성 화면" width="300"/>
 
 반려동물 정보 작성 공간에서 달력을 눌러 생일을 지정하고, 이름과 좋아하는 것, 싫어하는 것을 적을 수 있습니다.
-
----
   
 ### 일기 작성
 
