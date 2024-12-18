@@ -143,9 +143,9 @@
 - 오늘이 생일이면 축하해주며 생일이 다가오는 경우도 알려줍니다.<br><br>
 
 <div align="center">
-    <img src="https://github.com/dbstjd7084/dogcatgorithm/blob/7c81dae361b50b7f27891b83f143dd546392ac02/images/23%20-%20%EC%98%81%EC%83%81%EB%B7%B0.png" alt="23 - 영상뷰" width="300"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <img src="https://github.com/dbstjd7084/dogcatgorithm/blob/7c81dae361b50b7f27891b83f143dd546392ac02/images/23%20-%20%EC%98%81%EC%83%81%EB%B7%B0.png" alt="23 - 영상뷰" width="300"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <img src="https://github.com/dbstjd7084/dogcatgorithm/blob/7c81dae361b50b7f27891b83f143dd546392ac02/images/24%20-%20%EC%98%81%EC%83%81%20%EC%A0%84%EC%B2%B4%ED%99%94%EB%A9%B4.png" alt="24 - 영상 전체화면" width="300"/>
-</div>
+</div><br>
 
 - 영상 클릭 시 해당 영상뷰를 띄우며, 전체화면도 제공합니다.
 
@@ -158,7 +158,7 @@
     <img src="https://github.com/dbstjd7084/dogcatgorithm/blob/7c81dae361b50b7f27891b83f143dd546392ac02/images/26%20-%20%EC%A4%8C1.png" alt="26 - 줌1" width="270"/>&nbsp;
     <img src="https://github.com/dbstjd7084/dogcatgorithm/blob/7c81dae361b50b7f27891b83f143dd546392ac02/images/27%20-%20%EC%A4%8C2.png" alt="27 - 줌2" width="270"/>&nbsp;
     <img src="https://github.com/dbstjd7084/dogcatgorithm/blob/7c81dae361b50b7f27891b83f143dd546392ac02/images/28%20-%20%EC%A4%8C3.png" alt="28 - 줌3" width="270"/>
-</div>
+</div><br>
 
 - 아이콘 가시성을 위해 지도의 확대 상태에 따라 아이콘 크기를 조절합니다.<br><br>
 
@@ -175,7 +175,7 @@
     <img src="https://github.com/dbstjd7084/dogcatgorithm/blob/7c81dae361b50b7f27891b83f143dd546392ac02/images/32%20-%20%EC%A3%BC%EC%86%8C%20%EB%B3%B5%EC%82%AC.png" alt="32 - 주소 복사" width="200"/>
     <img src="https://github.com/dbstjd7084/dogcatgorithm/blob/7c81dae361b50b7f27891b83f143dd546392ac02/images/33%20-%20%EC%A0%84%ED%99%94%EB%B2%88%ED%98%B8%20%EB%88%84%EB%A5%B4%EA%B8%B0.png" alt="33 - 전화번호 누르기" width="200"/>
     <img src="https://github.com/dbstjd7084/dogcatgorithm/blob/7c81dae361b50b7f27891b83f143dd546392ac02/images/34%20-%20%ED%99%88%ED%8E%98%EC%9D%B4%EC%A7%80%20%EC%9D%B4%EB%8F%99.png" alt="34 - 홈페이지 이동" width="200"/>
-</div>
+</div><br>
 
 - 이름을 눌러 해당 시설을 검색합니다
 - 주소를 눌러 클립보드에 복사합니다
