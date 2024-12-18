@@ -4,7 +4,7 @@
 1. [목표](#목표)
 2. [설치 방법](#설치-방법)
 3. [사용 방법](#사용-방법)
-4. [주요 기능](#메뉴별-주요-기능)
+4. [주요 기능](#주요-기능)
     1. [로딩 화면](#로딩-화면)
     2. [홈](#홈)
     3. [일기 작성](#일기-작성)
@@ -51,7 +51,7 @@
 
    - [공공데이터 포털 반려동물 동반 가능 문화시설 데이터](https://www.data.go.kr/data/15111389/fileData.do, "공공데이터 포털 사이트로 이동")
      
-## 메뉴별 주요 기능
+## 주요 기능
 
 ### 로딩 화면
 <img src="https://github.com/dbstjd7084/dogcatgorithm/blob/567e3c7d5176f3a3b88911f062869dc9a4270dd4/images/2%20-%20%EB%A1%9C%EB%94%A9%20%ED%99%94%EB%A9%B4.gif" alt="2 - 로딩 화면" width="300"/>
@@ -60,14 +60,17 @@
 
 
 ### 홈
+<hr style="border: none; border-top: 0.3px solid #ccc;" />
 <img src="https://github.com/dbstjd7084/dogcatgorithm/blob/7c81dae361b50b7f27891b83f143dd546392ac02/images/3%20-%20%ED%99%88%20%ED%99%94%EB%A9%B4.png" alt="3 - 홈 화면" width="300"/>
 
 홈에서 반려동물의 사진을 올리고, 반려동물 정보를 작성해 홈 화면을 내 반려동물로 꾸밀 수 있습니다.
 
+<hr style="border: none; border-top: 0.3px solid #ccc;" />
 <img src="https://github.com/dbstjd7084/dogcatgorithm/blob/7c81dae361b50b7f27891b83f143dd546392ac02/images/4%20-%20%ED%99%88%20%EC%82%AC%EC%A7%84%20%ED%99%95%EB%8C%80.png" alt="4 - 홈 사진 확대" width="300"/>
 
 내가 올린 반려동물 사진을 눌러 사진을 확대할 수 있습니다. 또한, 사진을 길게 눌러 사진을 변경하거나 없앨 수 있습니다.
 
+<hr style="border: none; border-top: 0.3px solid #ccc;" />
 <img src="https://github.com/dbstjd7084/dogcatgorithm/blob/7c81dae361b50b7f27891b83f143dd546392ac02/images/5%20-%20%ED%99%88%20%EC%9E%91%EC%84%B1%20%ED%99%94%EB%A9%B4.png" alt="5 - 홈 작성 화면" width="300"/>
 
 반려동물 정보 작성 공간에서 달력을 눌러 생일을 지정하고, 이름과 좋아하는 것, 싫어하는 것을 적을 수 있습니다.
