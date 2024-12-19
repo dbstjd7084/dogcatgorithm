@@ -231,7 +231,9 @@ class VideoListFragment: Fragment() {
             Pets can either be a dog or a cat.
             
             Rules:
-            If today is the pet's birthday, include a birthday greeting in the comment. If it is not their birthday, do not mention the birthday at all.
+            
+            
+            Ignore the year in the date of birth; only consider the month and day. If today matches the month and day of the birthday, include a congratulatory message in comment. If today is within a week or less before the birthday, include a message saying "Happy early birthday." in comment. If today is 1 to 10 days after the birthday, do not mention the birthday in comment.
             If the dog appears to have an outgoing personality or enjoys outdoor activities like walking, pet cafes, or pet facilities, suggest keywords or comments related to pet-friendly places or activities.
             
             Pet Information:
