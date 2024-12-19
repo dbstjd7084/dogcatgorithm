@@ -159,8 +159,8 @@
 
 <div align="left">
     <img src="https://github.com/dbstjd7084/dogcatgorithm/blob/2361995aef80ffe96f6f7daa68b3924ee730e249/images/27%20-%20%EC%A4%8C1.png" alt="27 - 줌1" width="270"/>&nbsp;
-    <img src="https://github.com/dbstjd7084/dogcatgorithm/blob/7c81dae361b50b7f27891b83f143dd546392ac02/images/28%20-%20%EC%A4%8C2.png" alt="28 - 줌2" width="270"/>&nbsp;
-    <img src="https://github.com/dbstjd7084/dogcatgorithm/blob/7c81dae361b50b7f27891b83f143dd546392ac02/images/29%20-%20%EC%A4%8C3.png" alt="29 - 줌3" width="270"/>
+    <img src="https://github.com/dbstjd7084/dogcatgorithm/blob/91f4efdb4da4d34972c69039a2fdd29a0500783b/images/28%20-%20%EC%A4%8C2.png" alt="28 - 줌2" width="270"/>&nbsp;
+    <img src="https://github.com/dbstjd7084/dogcatgorithm/blob/91f4efdb4da4d34972c69039a2fdd29a0500783b/images/29%20-%20%EC%A4%8C3.png" alt="29 - 줌3" width="270"/>
 </div><br>
 
 - 아이콘 가시성을 위해 지도의 확대 상태에 따라 아이콘 크기를 조절합니다.<br><br>
