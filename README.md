@@ -132,49 +132,52 @@
 ### 멍냥정보(추천 영상)
 <img src="https://github.com/dbstjd7084/dogcatgorithm/blob/7c81dae361b50b7f27891b83f143dd546392ac02/images/20%20-%20AI%20%EB%B6%84%EC%84%9D.png" alt="20 - AI 분석" width="300"/>
 
-- 작성된 반려동물 정보를 고려해 ChatGPT-4o-mini 모델 AI가 분석하고 키워드를 선정합니다.<br><br>
+- 작성된 반려동물 정보를 고려해 LLM(ChatGPT-4o-mini)을 활용해 분석하고 키워드를 선정합니다.<br><br>
 
 <img src="https://github.com/dbstjd7084/dogcatgorithm/blob/7c81dae361b50b7f27891b83f143dd546392ac02/images/21%20-%20%EC%B6%94%EC%B2%9C%20%EC%98%81%EC%83%81%20%ED%99%94%EB%A9%B4.png" alt="21 - 추천 영상 화면" width="300"/>
 
-- 유튜브 검색 키워드를 선정하면, 검색 결과 10개 영상을 보여줍니다.<br><br>
+- 유튜브 검색 키워드를 선정하면, 검색 결과로 나온 최상단 10개의 영상을 보여줍니다.<br><br>
 
-<img src="https://github.com/dbstjd7084/dogcatgorithm/blob/7c81dae361b50b7f27891b83f143dd546392ac02/images/22%20-%20%EC%83%9D%EC%9D%BC%EC%9D%98%20%EA%B2%BD%EC%9A%B0.png" alt="22 - 생일의 경우" width="300"/>
+<div align="left">
+    <img src="https://github.com/dbstjd7084/dogcatgorithm/blob/2361995aef80ffe96f6f7daa68b3924ee730e249/images/22%20-%20%EC%83%9D%EC%9D%BC%EC%9D%B8%20%EA%B2%BD%EC%9A%B0.png" alt="22 - 생일인 경우" width="300"/>
+    <img src="https://github.com/dbstjd7084/dogcatgorithm/blob/2361995aef80ffe96f6f7daa68b3924ee730e249/images/23%20-%20%EC%83%9D%EC%9D%BC%EC%9D%B4%20%EB%8B%A4%EA%B0%80%EC%98%A4%EB%8A%94%20%EA%B2%BD%EC%9A%B0.png" alt="23 - 생일이 다가오는 경우" width="300"/>
+</div><br>
 
 - 오늘이 생일이면 축하해주며 생일이 다가오는 경우도 알려줍니다.<br><br>
 
 <div align="left">
-    <img src="https://github.com/dbstjd7084/dogcatgorithm/blob/7c81dae361b50b7f27891b83f143dd546392ac02/images/23%20-%20%EC%98%81%EC%83%81%EB%B7%B0.png" alt="23 - 영상뷰" width="300"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <img src="https://github.com/dbstjd7084/dogcatgorithm/blob/7c81dae361b50b7f27891b83f143dd546392ac02/images/24%20-%20%EC%98%81%EC%83%81%20%EC%A0%84%EC%B2%B4%ED%99%94%EB%A9%B4.png" alt="24 - 영상 전체화면" width="300"/>
+    <img src="https://github.com/dbstjd7084/dogcatgorithm/blob/2361995aef80ffe96f6f7daa68b3924ee730e249/images/24%20-%20%EC%98%81%EC%83%81%EB%B7%B0.png" alt="24 - 영상뷰" width="300"/>
+    <img src="https://github.com/dbstjd7084/dogcatgorithm/blob/2361995aef80ffe96f6f7daa68b3924ee730e249/images/25%20-%20%EC%98%81%EC%83%81%20%EC%A0%84%EC%B2%B4%ED%99%94%EB%A9%B4.png" alt="25 - 영상 전체화면" width="300"/>
 </div><br>
 
 - 영상 클릭 시 해당 영상뷰를 띄우며, 전체화면도 제공합니다.
 
 ### 반려동물 동반 가능 시설 찾기
-<img src="https://github.com/dbstjd7084/dogcatgorithm/blob/7c81dae361b50b7f27891b83f143dd546392ac02/images/25%20-%20%EC%9C%84%EC%B9%98%20%ED%95%84%ED%84%B0.png" alt="25 - 위치 필터" width="300"/>
+<img src="https://github.com/dbstjd7084/dogcatgorithm/blob/2361995aef80ffe96f6f7daa68b3924ee730e249/images/26%20-%20%EC%9C%84%EC%B9%98%20%ED%95%84%ED%84%B0.png" alt="26 - 위치 필터" width="300"/>
 
 - 위치 필터를 통해 내 위치 기반 주위 시설 또는 특정 지역의 시설을 선택해 표시할 수 있습니다.<br><br>
 
 <div align="left">
-    <img src="https://github.com/dbstjd7084/dogcatgorithm/blob/7c81dae361b50b7f27891b83f143dd546392ac02/images/26%20-%20%EC%A4%8C1.png" alt="26 - 줌1" width="270"/>&nbsp;
-    <img src="https://github.com/dbstjd7084/dogcatgorithm/blob/7c81dae361b50b7f27891b83f143dd546392ac02/images/27%20-%20%EC%A4%8C2.png" alt="27 - 줌2" width="270"/>&nbsp;
-    <img src="https://github.com/dbstjd7084/dogcatgorithm/blob/7c81dae361b50b7f27891b83f143dd546392ac02/images/28%20-%20%EC%A4%8C3.png" alt="28 - 줌3" width="270"/>
+    <img src="https://github.com/dbstjd7084/dogcatgorithm/blob/2361995aef80ffe96f6f7daa68b3924ee730e249/images/27%20-%20%EC%A4%8C1.png" alt="27 - 줌1" width="270"/>&nbsp;
+    <img src="https://github.com/dbstjd7084/dogcatgorithm/blob/7c81dae361b50b7f27891b83f143dd546392ac02/images/28%20-%20%EC%A4%8C2.png" alt="28 - 줌2" width="270"/>&nbsp;
+    <img src="https://github.com/dbstjd7084/dogcatgorithm/blob/7c81dae361b50b7f27891b83f143dd546392ac02/images/29%20-%20%EC%A4%8C3.png" alt="29 - 줌3" width="270"/>
 </div><br>
 
 - 아이콘 가시성을 위해 지도의 확대 상태에 따라 아이콘 크기를 조절합니다.<br><br>
 
-<img src="https://github.com/dbstjd7084/dogcatgorithm/blob/7c81dae361b50b7f27891b83f143dd546392ac02/images/29%20-%20%EC%8B%9C%EC%84%A4%EC%9D%98%20%EC%9D%B4%EB%A6%84%EA%B3%BC%20%EC%A3%BC%EC%86%8C.png" alt="29 - 시설의 이름과 주소" width="300"/>
+<img src="https://github.com/dbstjd7084/dogcatgorithm/blob/2361995aef80ffe96f6f7daa68b3924ee730e249/images/30%20-%20%EC%8B%9C%EC%84%A4%EC%9D%98%20%EC%9D%B4%EB%A6%84%EA%B3%BC%20%EC%A3%BC%EC%86%8C.png" alt="30 - 시설의 이름과 주소" width="300"/>
 
 - 아이콘을 눌러 해당 시설의 이름과 주소를 볼 수 있습니다.<br><br>
 
-<img src="https://github.com/dbstjd7084/dogcatgorithm/blob/7c81dae361b50b7f27891b83f143dd546392ac02/images/30%20-%20%EC%8B%9C%EC%84%A4%20%EC%A0%95%EB%B3%B4%20%ED%99%95%EC%9D%B8.png" alt="30 - 시설 정보 확인" width="300"/>
+<img src="https://github.com/dbstjd7084/dogcatgorithm/blob/2361995aef80ffe96f6f7daa68b3924ee730e249/images/31%20-%20%EC%8B%9C%EC%84%A4%20%EC%A0%95%EB%B3%B4%20%ED%99%95%EC%9D%B8.png" alt="31 - 시설 정보 확인" width="300"/>
 
 - 한 번 더 눌러 등록된 시설 정보(이름, 유형, 주소, 운영시간, 연락처, 홈페이지, 이용료, 동반 추가 요금, 반려동물 동반 조건, 주차 여부 등)를 확인할 수 있습니다.<br><br>
 
 <div align="left">
-    <img src="https://github.com/dbstjd7084/dogcatgorithm/blob/7c81dae361b50b7f27891b83f143dd546392ac02/images/31%20-%20%EC%9D%B4%EB%A6%84%20%EB%88%84%EB%A5%B4%EA%B8%B0.png" alt="31 - 이름 누르기" width="200"/>
-    <img src="https://github.com/dbstjd7084/dogcatgorithm/blob/7c81dae361b50b7f27891b83f143dd546392ac02/images/32%20-%20%EC%A3%BC%EC%86%8C%20%EB%B3%B5%EC%82%AC.png" alt="32 - 주소 복사" width="200"/>
-    <img src="https://github.com/dbstjd7084/dogcatgorithm/blob/7c81dae361b50b7f27891b83f143dd546392ac02/images/33%20-%20%EC%A0%84%ED%99%94%EB%B2%88%ED%98%B8%20%EB%88%84%EB%A5%B4%EA%B8%B0.png" alt="33 - 전화번호 누르기" width="200"/>
-    <img src="https://github.com/dbstjd7084/dogcatgorithm/blob/7c81dae361b50b7f27891b83f143dd546392ac02/images/34%20-%20%ED%99%88%ED%8E%98%EC%9D%B4%EC%A7%80%20%EC%9D%B4%EB%8F%99.png" alt="34 - 홈페이지 이동" width="200"/>
+    <img src="https://github.com/dbstjd7084/dogcatgorithm/blob/2361995aef80ffe96f6f7daa68b3924ee730e249/images/32%20-%20%EC%9D%B4%EB%A6%84%20%EB%88%84%EB%A5%B4%EA%B8%B0.png" alt="32 - 이름 누르기" width="200"/>
+    <img src="https://github.com/dbstjd7084/dogcatgorithm/blob/2361995aef80ffe96f6f7daa68b3924ee730e249/images/33%20-%20%EC%A3%BC%EC%86%8C%20%EB%B3%B5%EC%82%AC.png" alt="33 - 주소 복사" width="200"/>
+    <img src="https://github.com/dbstjd7084/dogcatgorithm/blob/2361995aef80ffe96f6f7daa68b3924ee730e249/images/34%20-%20%EC%A0%84%ED%99%94%EB%B2%88%ED%98%B8%20%EB%88%84%EB%A5%B4%EA%B8%B0.png" alt="34 - 전화번호 누르기" width="200"/>
+    <img src="https://github.com/dbstjd7084/dogcatgorithm/blob/2361995aef80ffe96f6f7daa68b3924ee730e249/images/35%20-%20%ED%99%88%ED%8E%98%EC%9D%B4%EC%A7%80%20%EC%9D%B4%EB%8F%99.png" alt="35 - 홈페이지 이동" width="200"/>
 </div><br>
 
 - 이름을 눌러 해당 시설을 검색합니다
