@@ -16,7 +16,6 @@ import com.example.application.R
 import com.example.application.databases.FacilityDatabaseHelper
 import com.example.application.interfaces.PetFriendlyService
 import com.example.application.structs.googlemap.FacilityResponse
-import com.google.android.gms.maps.GoogleMap
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch

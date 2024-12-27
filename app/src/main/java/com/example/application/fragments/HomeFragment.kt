@@ -273,6 +273,7 @@ class HomeFragment : Fragment() {
             typeView.setImageResource(R.drawable.cat)
         }
         nameInfoView.text = " " + petInfo!!.name
+        nameInfoView.setTextColor(ContextCompat.getColor(requireContext(), R.color.black))
         if (petInfo!!.birth == null) {
             birthInfoView.text = " 미입력"
             birthInfoView.setTextColor(ContextCompat.getColor(requireContext(), R.color.gray))
